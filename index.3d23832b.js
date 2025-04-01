@@ -1,0 +1,2 @@
+var e=document.querySelector(".logo");function n(e){var n=arguments.length>1&&void 0!==arguments[1]&&arguments[1],t=document.createElement("div");t.classList.add("message",n&&"error-message"),t.textContent=e,document.body.append(t)}var t=new Promise(function(n){e.addEventListener("click",function(){n("Promise was resolved!")},{once:!0})}),o=new Promise(function(e,n){setTimeout(function(){return n(Error("Promise was rejected!"))},3e3)});t.then(function(e){return n(e)}),o.catch(function(e){return n(e.message,!0)});
+//# sourceMappingURL=index.3d23832b.js.map
