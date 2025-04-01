@@ -6,6 +6,8 @@ const ERR_CLASS = 'error-message';
 
 const logo = document.querySelector('.logo');
 
+//
+
 function addNotification(message, err = false) {
   const element = document.createElement('div');
 
